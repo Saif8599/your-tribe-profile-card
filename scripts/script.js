@@ -3,13 +3,13 @@ expandButton.addEventListener("click", expand);
 
 function expand() {
   document.body.classList.toggle("expand");
+
+  var profileContent = document.getElementById("profile-content");
+  profileContent.classList.toggle("show");
 }
 
-const profileContent = document.getElementById("profile-content");
 
-expandButton.addEventListener("click", () => {
-  profileContent.classList.toggle("hidden");
-});
+/*Profile buttons*/
 
 const button1 = document.getElementById("button1");
 const button2 = document.getElementById("button2");
