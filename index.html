@@ -7,89 +7,72 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <article>
-      <section class="profile">
-        <img
-          src="https://picsum.photos/seed/picsum/300/300"
-          alt="profielfoto"
-          width="600"
-          height="600"
-        />
-        <section>
-          <h1>Saif Muhamad</h1>
-          <p>Frontend Developer</p>
-        </section>
-      </section>
-
-      <section class="profile-content hidden" id="profile-content">
-        <section class="profile-button">
-          <section class="button-page" id="button1">1</section>
-          <section class="button-page" id="button2">2</section>
-          <section class="button-page" id="button3">3</section>
-        </section>
-
-        <section class="profile-info-section hidden" id="profile-info-section">
-          <p>Informatie</p>
-          <p>0612345678</p>
-          <p>Saifmuhamad.nl</p>
-          <p>saif.muhamad@hva.nl</p>
-        </section>
-
-        <section
-          class="profile-skills-section hidden"
-          id="profile-skills-section"
-        >
-          <p>Skills</p>
-          <p>Html</p>
-          <p>Css</p>
-          <p>Js</p>
-          <p>Php</p>
-        </section>
-
-        <section
-          class="profile-animation-section hidden"
-          id="profile-animation-section"
-        ></section>
-      </section>
-
-      <header>
-        <button>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="red"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-      </header>
-    </article>
-    <script src="scripts/script.js"></script>
+    <section>
+      <div class="container">
+        <img />
+        <div class="card front-face">
+          <div class="card-details">
+            <div class="card-name-role">
+              <a>C:\</a>
+              <a class="name">Saif Muhamad</a>
+              <a>\</a>
+              <a class="role">Frontend web developer</a>
+              <a>></a>
+            </div>
+          </div>
+        </div>
+        <div class="card back-face">
+          <div class="begin-info">
+            <span class="keyword">function</span>
+            <span class="function-name">getInTouch</span
+            ><span class="punctuation">()</span>
+            <span class="punctuation">{</span>
+          </div>
+          <div class="contact-info">
+            <div>
+              <span class="keyword">var</span>
+              <span class="variable">name</span>
+              <span class="operator">=</span>
+              <span class="string">"Saif Muhamad"</span
+              ><span class="punctuation">;</span>
+            </div>
+            <div>
+              <span class="keyword">var</span>
+              <span class="variable">title</span>
+              <span class="operator">=</span>
+              <span class="string">"Student"</span
+              ><span class="punctuation">;</span>
+            </div>
+            <div>
+              <span class="keyword">var</span>
+              <span class="variable">phone</span>
+              <span class="operator">=</span>
+              <span class="string">"020 595 1405"</span
+              ><span class="punctuation">;</span>
+            </div>
+            <div>
+              <span class="keyword">var</span>
+              <span class="variable">mail</span>
+              <span class="operator">=</span>
+              <span class="string">"SaifzMuhamad@gmail.com"</span
+              ><span class="punctuation">;</span>
+            </div>
+            <div>
+              <span class="keyword">var</span>
+              <span class="variable">url</span> <span class="operator">=</span>
+              <a class="string" href="Saifmuhamad.nl" target="_blank"
+                >"Saifmuhamad.nl"</a
+              ><span class="punctuation">;</span>
+            </div>
+          </div>
+          <div class="end-info">
+            <span class="punctuation">}</span>
+            <br />
+            <span class="function-call">getInTouch</span
+            ><span class="punctuation">();</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
